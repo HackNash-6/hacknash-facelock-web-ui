@@ -64,6 +64,21 @@ p {
   text-align: center;
 }
 
+#gender-p {
+  font-size: medium;
+}
+
+.select-gender-radio {
+  font-size: medium;
+  width: 100px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+#gender-radio {
+  text-align: left;
+}
+
 .intro header {
   top: 25%;
 }
@@ -143,7 +158,7 @@ iframe {
   font-weight: 300;
   padding: 10px;
 }
-    
+
 #snap {
   margin-top: 20px;
 

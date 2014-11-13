@@ -24,8 +24,17 @@
   <header id="header">
     <h1>Find Your Match!</h1><br>
 
-    <p>Take your photo to find your celebrity doppelganger. Then click the appropriate buttons to re-take the photo or get your match.</p><br> <p>Facial portraits tend to return the most accurate results. Please avoid wearing hats or glasses, including multiple people, or anything else that may interfere with our algorithms. Some browsers may require authentication for webcam access.</p><br>
-   <paper-button class="button" id="capture">Start Camera
+    <p>Take your photo to find your celebrity doppelganger. Then click the appropriate buttons to re-take the photo or get your match.</p><br><p>Facial portraits tend to return the most accurate results. Please avoid wearing hats or glasses, including multiple people, or anything else that may interfere with our algorithms. Some browsers may require authentication for webcam access.</p><br>
+    <p id="gender-p">Please specify what gender you would like results for:</p>
+    <div class="select-gender-radio">
+      <div id="gender-radio" name="gender-radio">
+        <input type="radio" name="gender" id="Female"><label for="Female"> Female</label><br>
+        <input type="radio" name="gender" id="Male"><label for="Male"> Male</label><br>
+        <input type="radio" name="gender" id="Both"><label for="Both"> Both</label><br><br>
+      </div>
+    </div>
+
+    <paper-button class="button" id="capture">Start Camera
         </paper-button><br><br><br>
   </header>
 
@@ -47,10 +56,10 @@
     </form>
     <button id="startbutton">&lt; Take another</button>
 
-  </div> 
+  </div>
   <div id="animation">
     <iframe src="poster-circle.html" width="100%" height="100%" scrolling="no" seamless></iframe>
-  </div> 
+  </div>
   <paper-dialog heading="Results" transition="paper-dialog-transition-center" id="dialog">
   </paper-dialog>
   <footer>
